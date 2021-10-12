@@ -1,8 +1,20 @@
-import "./styles/main.scss"
+import { Switch, Route } from 'react-router-dom'
+import Header from "./components/Header";
+import Portfolio from "./pages/Portfolio";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <h1>Portfolio</h1>
+   <div> 
+    <Header />
+    <Switch>
+      <Route path="/" component={Portfolio} exact />
+      <Route path="/about" component={About} />
+      <Route path="/contact" component={Contact} />
+
+    </Switch>
+   </div>
   );
 }
 
