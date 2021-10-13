@@ -46,7 +46,137 @@ header {
  
 
   /* PROJECTS ************************************************* */ 
+  @mixin stripes($direction, $width-percent, $stripe-color, $stripe-background: #FFF) {
+    background: repeating-linear-gradient(
+      $direction,
+      $stripe-background,
+      $stripe-background ($width-percent - 1),
+      $stripe-color 1%,
+      $stripe-background $width-percent
+    );
+  }
+  
+  @mixin transform($transformation) {
+    transform: $transformation;
+    -webkit-transform: $transformation;
+    -moz-transform: $transformation;
+    -ms-transform: $transformation;
+    -o-transform: $transformation;  
+  }
+  @mixin photo-content($file) {
+    content: url(#{$file}.png); 
+    object-fit: cover;
+  }
+  
+  @mixin hover-color($color) {
+     &:hover{
+      box-shadow: 5px 5px 5px 5px $color;
+     }
+  }
+  
+  //Add your own mixins here
+  @mixin transform-style($style){
+     transform-style: $style;
+    -moz-transform-style: $style;
+    -o-transform-style: $style;
+    -ms-transform-style: $style;
+    -webkit-transform-style: $style;
+  }
+  
+  @mixin transition($time){
+    transition: $time;
+    -webkit-transition: $time;
+    -moz-transition: $time;
+    -o-transition: $time;
+  }  
+  
+  @mixin backface-visibility($visibility:hidden) {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+  }
+  
+  $stripe-properties: to bottom, 15%, blue, white;
+  
+  h2{
+    text-align: center;
+  }
 
+  #project-cards {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    // flex-wrap: wrap;
+  }
+
+
+  .project-card {
+    &:hover{
+    @include transform (rotatey(180deg));  
+  }
+    width: 50%;
+    height: 400px;
+    border: 1px solid rgb(255, 255, 255);
+    display: inline-block;
+    margin: 20px;
+    font-family: Roboto, sans-serif;
+    box-shadow: 1px 1px 2px 2px rgba(0,0,0,.2);
+    @include transform-style(preserve-3d);
+    @include transition(1s);
+    @include hover-color(rgb(255, 51, 0));
+    
+    .front, .back {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      @include backface-visibility;
+    }
+    
+    .front {
+    z-index: 3;
+    font-size: 20px;
+    background-image: url('../python2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+      .project-name {
+        display: block;
+        text-align: center;
+        position: relative;
+        top: 40%;
+       
+      }    
+    }
+    
+    
+    .back {
+    z-index: 1;
+    word-wrap: break-word;
+    line-height: 1.6;
+    @include transform(rotatey(-180deg));
+      
+      .description {
+        // @include stripes($stripe-properties...);
+        width: 100%;
+        height: 100%;
+        color: rgb(255, 255, 255);
+        // @include hover-color(green);
+              
+        .photo {
+          display: flex;
+          justify-content:center;
+          width: 90%;
+          margin: 0px auto;
+            
+        }
+      }
+    }
+  }
+  
 
   /* SKILLS ************************************************* */
 

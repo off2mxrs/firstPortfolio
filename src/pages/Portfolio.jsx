@@ -10,18 +10,54 @@ function Portfolio() {
                 <h1>Hi Im Mars</h1>
                 <video autoPlay muted loop>
                     <source src={Video} type="video/mp4" />
-                </video>
-               
+                </video>         
             </div>
-            <div>
+
+{/* ////////////////////// PROJECTS /////////////////////             */}
                 <h2>Projects</h2>
-                <video className="video2" autoPlay muted loop>
-                    <source src={Video2} type="video/mp4" />
-                </video>
-                <video className="video3" autoPlay muted loop>
-                    <source src={Video3} type="video/mp4" />
-                </video>
+            <div id="project-cards">
+                <div className="project-card">
+                    <div className="front">
+                        <span className="project-name">Wayfarer</span>
+                    </div>
+                    <div className="back">
+                     <div className="description">
+                        Lorem ipsum dolor sit amet, consectetur
+                        <div >
+                        <img className="photo" src="/png/me.png"></img>
+                        </div>
+                     </div>
+                    </div>
+                </div>
+                <div className="project-card">
+                    <div className="front">
+                        <span className="project-name">Wayfarer</span>
+                    </div>
+                    <div className="back">
+                     <div className="description">
+                        Lorem ipsum dolor sit amet, consectetur
+                        <div >
+                        <img className="photo" src="/png/me.png"></img>
+                        </div>
+                     </div>
+                    </div>
+                </div>
+                <div className="project-card">
+                    <div className="front">
+                        <span className="project-name">Wayfarer</span>
+                    </div>
+                    <div className="back">
+                     <div className="description">
+                        Lorem ipsum dolor sit amet, consectetur
+                        <div >
+                        <img className="photo" src="/png/me.png"></img>
+                        </div>
+                     </div>
+                    </div>
+                </div>
             </div>
+
+ {/* //////////////////// SKILLS //////////////////            */}
             <div className="inner">
                 <div className="skill-header">
                     <h2>My Skills</h2> 
