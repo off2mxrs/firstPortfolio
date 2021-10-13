@@ -1,19 +1,26 @@
 import "../styles/main.scss"
 import "../styles/video.scss"
-import Video from "../media/291957_Record_Player_Record_Stylus_Needle_Record_by_Janis_Saukums_Artgrid-HD_H264-HD.mp4"
-
+import Video2 from "../media/291957_Record_Player_Record_Stylus_Needle_Record_by_Janis_Saukums_Artgrid-HD_H264-HD.mp4"
+import Video from "../media/childish.mp4"
+import Video3 from "../media/mixer.mp4"
 function Portfolio() {
     return (
         <div>
-            <section className="top">
+            <div className="top">
                 <h1>Hi Im Mars</h1>
                 <video autoPlay muted loop>
                     <source src={Video} type="video/mp4" />
                 </video>
-            </section>
+               
+            </div>
             <div>
                 <h2>Projects</h2>
-               
+                <video className="video2" autoPlay muted loop>
+                    <source src={Video2} type="video/mp4" />
+                </video>
+                <video className="video3" autoPlay muted loop>
+                    <source src={Video3} type="video/mp4" />
+                </video>
             </div>
             <div className="inner">
                 <div className="skill-header">
