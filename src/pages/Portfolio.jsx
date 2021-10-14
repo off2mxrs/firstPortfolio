@@ -14,7 +14,8 @@ function Portfolio() {
             </div>
 
 {/* ////////////////////// PROJECTS /////////////////////             */}
-                <h2>Projects</h2>
+                <section className="glass">
+                 <h2>Projects</h2>
             <div id="project-cards">
                 <div className="project-card">
                     <div className="front">
@@ -56,8 +57,10 @@ function Portfolio() {
                     </div>
                 </div>
             </div>
+            </section>
 
  {/* //////////////////// SKILLS //////////////////            */}
+            <section className="glass">
             <div className="inner">
                 <div className="skill-header">
                     <h2>My Skills</h2> 
@@ -140,6 +143,7 @@ function Portfolio() {
     
                 <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
             </div>
+            </section>
         </div>
     )
 }
