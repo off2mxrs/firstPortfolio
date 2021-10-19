@@ -8,9 +8,9 @@ function Portfolio() {
         <div>
             <div className="top">
                 <h1>Hi Im Mars</h1>
-                <video autoPlay muted loop>
+                {/* <video autoPlay muted loop>
                     <source src={Video} type="video/mp4" />
-                </video>         
+                </video>          */}
             </div>
 
 {/* ////////////////////// PROJECTS /////////////////////             */}
