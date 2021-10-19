@@ -18,13 +18,13 @@ function About() {
                     </div>
                     <div className="title">
                         <p>BLVD</p>
-                    </div>
-
-                    
-                    
-                </section>
-                
+                    </div>                    
+                </section>     
             </main>
+
+            <footer>
+                Marshawn Davidson
+            </footer>
         </div>
     )
 }
