@@ -7,60 +7,11 @@ function Portfolio() {
     return (
         <div>
             <div className="top">
-                <h1>Hi Im Mars</h1>
-                {/* <video autoPlay muted loop>
-                    <source src={Video} type="video/mp4" />
-                </video>          */}
+             
             </div>
-
-{/* ////////////////////// PROJECTS /////////////////////             */}
-                <section className="glass">
-                 <h2>Projects</h2>
-            <div id="project-cards">
-                <div className="project-card">
-                    <div className="front">
-                        <span className="project-name">Wayfarer</span>
-                    </div>
-                    <div className="back">
-                     <div className="description">
-                        Lorem ipsum dolor sit amet, consectetur
-                        <div >
-                        <img className="photo" src="/png/me.png"></img>
-                        </div>
-                     </div>
-                    </div>
-                </div>
-                <div className="project-card">
-                    <div className="front">
-                        <span className="project-name">Wayfarer</span>
-                    </div>
-                    <div className="back">
-                     <div className="description">
-                        Lorem ipsum dolor sit amet, consectetur
-                        <div >
-                        <img className="photo" src="/png/me.png"></img>
-                        </div>
-                     </div>
-                    </div>
-                </div>
-                <div className="project-card">
-                    <div className="front">
-                        <span className="project-name">Wayfarer</span>
-                    </div>
-                    <div className="back">
-                     <div className="description">
-                        Lorem ipsum dolor sit amet, consectetur
-                        <div >
-                        <img className="photo" src="/png/me.png"></img>
-                        </div>
-                     </div>
-                    </div>
-                </div>
-            </div>
-            </section>
 
  {/* //////////////////// SKILLS //////////////////            */}
-            <section className="glass">
+            {/* <section className="glass">
             <div className="inner">
                 <div className="skill-header">
                     <h2>My Skills</h2> 
@@ -143,7 +94,7 @@ function Portfolio() {
     
                 <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
             </div>
-            </section>
+            </section> */}
         </div>
     )
 }
