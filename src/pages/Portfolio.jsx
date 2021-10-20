@@ -1,14 +1,20 @@
-import "../styles/main.scss"
-import "../styles/video.scss"
+import "../styles/portfolio.scss"
 import Video2 from "../media/291957_Record_Player_Record_Stylus_Needle_Record_by_Janis_Saukums_Artgrid-HD_H264-HD.mp4"
 import Video from "../media/childish.mp4"
 import Video3 from "../media/mixer.mp4"
+import Sidebar from "../components/Sidebar"
+import CategoryDetail from "../components/CategoryDetail"
 function Portfolio() {
     return (
         <div>
-            <div className="top">
-             
-            </div>
+          <div className="main-page">
+      
+          <Sidebar />
+      <main className="category-info">
+        <CategoryDetail />
+
+      </main>
+    </div>
 
  {/* //////////////////// SKILLS //////////////////            */}
             {/* <section className="glass">
