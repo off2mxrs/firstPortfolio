@@ -1,20 +1,44 @@
+import React from 'react'
 import "../styles/portfolio.scss"
 import Video2 from "../media/291957_Record_Player_Record_Stylus_Needle_Record_by_Janis_Saukums_Artgrid-HD_H264-HD.mp4"
 import Video from "../media/childish.mp4"
 import Video3 from "../media/mixer.mp4"
 import Sidebar from "../components/Sidebar"
 import CategoryDetail from "../components/CategoryDetail"
-function Portfolio() {
-    return (
-        <div>
-          <div className="main-page">
-      
-          <Sidebar />
-      <main className="category-info">
-        <CategoryDetail />
+import categoryData from '../categoryData';
 
-      </main>
-    </div>
+class Portfolio extends React.Component {
+
+    state = {
+      categoryIdx: 0
+    }
+  
+    updateCategoryIdx = (idx) => {
+      console.log('Updating index', idx);
+      this.setState({categoryIdx: idx})
+    }
+  
+    render() {
+  
+      let categoryNames = categoryData.map(category => {
+        return category.categoryName
+      })
+      // console.log(categoryNames);
+    let selectedCategory = categoryData[this.state.categoryIdx]
+    // console.log(selectedCategory);
+  
+    return (
+      <div className="main-page">
+           <Sidebar 
+           categoryNames={categoryNames} 
+           updateCategoryIdx={this.updateCategoryIdx}
+           />
+         
+    
+          <main className="category-info">
+            <CategoryDetail category={selectedCategory}/>
+            
+          </main>
 
  {/* //////////////////// SKILLS //////////////////            */}
             {/* <section className="glass">
@@ -103,6 +127,7 @@ function Portfolio() {
             </section> */}
         </div>
     )
+  }
 }
 
 export default Portfolio;

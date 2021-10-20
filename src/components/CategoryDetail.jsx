@@ -1,15 +1,18 @@
-function CategoryDetail() {
-    return (
-      <div className="category-detail">
-        <div className="category-content">
-          <h2>Projects</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit quas architecto a aliquam voluptas omnis debitis ut sint, incidunt officia maxime? Assumenda voluptate, sint id cupiditate optio aliquid deleniti beatae?</p>
-        </div>
-  
-        <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666" alt="" className="category-img"/>
+function CategoryDetail(props) {
+  return (
+    <div className="category-detail">
+       <section className="category-detail">
+        <h2>{props.category.categoryName}</h2> 
+       </section>
+
+      <div className="category-content">
+        <h2>{props.category.categoryName}</h2>
+        <p>{props.category.categoryDescription}</p>
       </div>
-    );
-  }
-  
-  export default CategoryDetail;
-  
+
+      <img src={props.category.categoryImg} alt="" className="category-img"/>
+    </div>
+  );
+}
+
+export default CategoryDetail;

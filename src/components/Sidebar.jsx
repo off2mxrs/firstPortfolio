@@ -1,12 +1,25 @@
-function Sidebar() {
+function Sidebar(props) {
+  function handleCategoryClick(idx) {
+    // console.log('Category Clicked');
+    // console.log('Index =>', idx);
+    props.updateCategoryIdx(idx)
+  }
+  
+  const sidebarJsx = props.categoryNames.map((name, idx) => {
     return (
+      <li 
+      className="sidebar-card" 
+      key={idx} 
+      onClick={() => handleCategoryClick(idx)}
+      >
+        {name}
+      </li>
+    )
+  
+  })
+  return (
       <aside className="sidebar">
-        <ul>
-          <li className="sidebar-card">Projects</li>
-          <li className="sidebar-card">Skills</li>
-          <li className="sidebar-card">About</li>
-          <li className="sidebar-card">Contact</li>
-        </ul>
+       {sidebarJsx}
       </aside>
     );
   }
