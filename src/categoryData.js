@@ -1,12 +1,12 @@
 const categoryData = [
     {
-      categoryName: 'Breakfast',
+      categoryName: 'Label',
       categoryDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, eligendi. Repellendus voluptates vel, consequatur sequi dolorem repellat blanditiis aut optio impedit quidem ut officiis laudantium vitae dicta aspernatur ullam quis?',
-      categoryImg: 'https://images.unsplash.com/photo-1533089860892-a7c6f0a88666',
-      recipes: [
+      projects: [
         {
-          recipeName: 'Breakfast Potatoes',
-          recipeDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus facere ab cumque autem ea deserunt est sit quasi in nihil quibusdam, quos, animi laborum voluptate doloribus ullam blanditiis ipsam ut!`'
+          projectName: 'Label',
+          img: "https://raw.githubusercontent.com/off2mxrs/label/main/Screen%20Shot%202021-10-14%20at%2011.22.35%20AM.png",
+          projectDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus facere ab cumque autem ea deserunt est sit quasi in nihil quibusdam, quos, animi laborum voluptate doloribus ullam blanditiis ipsam ut!`'
         },
         {
           recipeName: 'French Toast',

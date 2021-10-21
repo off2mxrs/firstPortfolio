@@ -20,6 +20,7 @@ function Sidebar(props) {
   return (
       <aside className="sidebar">
        {sidebarJsx}
+       PROJECTS
       </aside>
     );
   }

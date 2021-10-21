@@ -8,10 +8,10 @@ function Header() {
             </h1>
            <ul className="navList">
                <li>
-                   <Link className="navLink" to ="/">Portfolio</Link>
+                   <Link className="navLink" to ="/">Projects</Link>
                </li>
                <li>
-                   <Link className="navLink" to ="/about">About</Link>
+                   <Link className="navLink" to ="/about">Skills</Link>
                </li>
                <li>
                    <Link className="navLink" to ="/contact">Contact</Link>

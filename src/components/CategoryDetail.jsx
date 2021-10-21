@@ -6,23 +6,12 @@ function CategoryDetail(props) {
        </section>
 
       <div >
-        <h2>{props.category.categoryName}</h2>
+        <h2>{props.category.projects[0].projectName}</h2>
         <p>{props.category.categoryDescription}</p>
       </div>
 
-      <img src={props.category.categoryImg} alt="" className="category-img"/>
-      <div >
-        <h2>{props.category.categoryName}</h2>
-        <p>{props.category.categoryDescription}</p>
-      </div>
-
-      <img src={props.category.categoryImg} alt="" className="category-img"/>
-      <div >
-        <h2>{props.category.categoryName}</h2>
-        <p>{props.category.categoryDescription}</p>
-      </div>
-
-      <img src={props.category.categoryImg} alt="" className="category-img"/>
+      <img src={props.category.projects[0].img} alt="" className="category-img"/>
+     
     </div>
   );
 }
