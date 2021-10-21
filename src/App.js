@@ -7,13 +7,13 @@ import Contact from "./pages/Contact";
 function App() {
   return (
    <div> 
-    <Header />
     <Switch>
       <Route path="/" component={Portfolio} exact />
       <Route path="/about" component={About} exact />
       <Route path="/contact" component={Contact} />
 
     </Switch>
+    <Header />
    </div>
   );
 }

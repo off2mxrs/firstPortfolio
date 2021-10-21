@@ -3,6 +3,17 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  html {
+    scroll-behavior: smooth
+
+  }
+
+  body {
+    width: 100%;
+    min-height: 100vh;
+    // border: 5px dashed red
+  }
   
   ul {
     list-style: none;
@@ -53,6 +64,8 @@
   
   .main-page {
     display: flex;
+    // min-width: 100vh;
+    margin: 0 auto;
   }
   
   /* SIDEBAR ************************************************* */
@@ -77,17 +90,24 @@
   .category-info {
     border: 2px solid #aaa;
     flex-grow: 1;
+    height: 90vh;
+    overflow-y: auto;
   }
   
   .category-detail {
     border: 2px solid #aaa;
+    border-radius: 5px 100px 5px 5px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding: 20px;
+   
   }
   
   .category-content {
     padding-right: 15px;
+   
   }
   
   .category-img {
@@ -95,6 +115,7 @@
     max-width: 50%;
   
   }
+
   
   /* RECIPES SECTION ******************************************* */
   .recipes-section {

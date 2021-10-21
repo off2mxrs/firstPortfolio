@@ -6,6 +6,7 @@ import Video3 from "../media/mixer.mp4"
 import Sidebar from "../components/Sidebar"
 import CategoryDetail from "../components/CategoryDetail"
 import categoryData from '../categoryData';
+import Header from '../components/Header'
 
 class Portfolio extends React.Component {
 
@@ -37,8 +38,9 @@ class Portfolio extends React.Component {
     
           <main className="category-info">
             <CategoryDetail category={selectedCategory}/>
-            
+        
           </main>
+          
 
  {/* //////////////////// SKILLS //////////////////            */}
             {/* <section className="glass">
