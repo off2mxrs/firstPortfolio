@@ -95,7 +95,7 @@
     -ms-writing-mode: vertical-lr;
     transform: rotate(180deg);
     padding: 20px;
-    font-size: 150px;
+    font-size: 70px;
     // display: flex;
     // align-items: center;
     // justify-content: center;
@@ -111,7 +111,7 @@
   }
   
   .category-detail {
-    background-color: rgba(118, 191, 193, 0.749);
+    background-color: rgba(118, 191, 193, 0.523);
     border: 2px solid #aaa;
     border-radius: 5px 100px 5px 5px;
     display: flex;
@@ -128,8 +128,9 @@
   }
   
   .category-img {
-    width: 525px;
-    max-width: 50%;
+    width: 700px;
+    max-width: 70%;
+    padding: 20px;
   
   }
 

@@ -4,8 +4,10 @@ function Header() {
    return (
        <header>
            <h1>
-                <Link className="header-title" to="/">FrontEnd Engineer</Link>
+                <Link className="header-title" to="/">MARS</Link>
             </h1>
+
+            <h2>Front-End Engineer</h2>
            <ul className="navList">
                <li>
                    <Link className="navLink" to ="/">Projects</Link>

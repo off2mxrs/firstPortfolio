@@ -22,7 +22,7 @@ function Sidebar(props) {
         <aside className="sidebar">
          {sidebarJsx}
         <h3 className='vertical'>
-         MARS
+         PROJECTS
 
         </h3>
         </aside>

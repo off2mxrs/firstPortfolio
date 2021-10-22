@@ -6,7 +6,7 @@ function About() {
              <aside className="sidebar">
                 <li className="sidebar-card">RESUME</li>
                 <h3 className='vertical'>
-                    MARS
+                    SKILLS
                 </h3>
             </aside>
             <main className="category-info">

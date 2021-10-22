@@ -11,6 +11,8 @@ function CategoryDetail(props) {
       </div>
 
       <img src={props.category.projects[0].img} alt="" className="category-img"/>
+      <img src={props.category.projects[0].img} alt="" className="category-img"/>
+      <img src={props.category.projects[0].img} alt="" className="category-img"/>
      
     </div>
   );
