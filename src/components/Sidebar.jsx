@@ -18,10 +18,16 @@ function Sidebar(props) {
   
   })
   return (
-      <aside className="sidebar">
-       {sidebarJsx}
-       PROJECTS
-      </aside>
+      <div>
+        <aside className="sidebar">
+         {sidebarJsx}
+        <h3 className='vertical'>
+         MARS
+
+        </h3>
+        </aside>
+
+      </div>
     );
   }
   

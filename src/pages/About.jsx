@@ -4,9 +4,10 @@ function About() {
     return (
         <div className="main-page">
              <aside className="sidebar">
-             <li className="sidebar-card">RESUME</li>
-      
-                ABOUT
+                <li className="sidebar-card">RESUME</li>
+                <h3 className='vertical'>
+                    MARS
+                </h3>
             </aside>
             <main className="category-info">
                 <div className="category-detail">

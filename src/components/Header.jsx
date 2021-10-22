@@ -4,7 +4,7 @@ function Header() {
    return (
        <header>
            <h1>
-                <Link className="header-title" to="/">MARS</Link>
+                <Link className="header-title" to="/">FrontEnd Engineer</Link>
             </h1>
            <ul className="navList">
                <li>
