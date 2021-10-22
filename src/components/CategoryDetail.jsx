@@ -10,8 +10,8 @@ function CategoryDetail(props) {
       </div>
 
       <img src={props.category.project[0].media[0]} alt="" className="category-img"/>
-      <img src={props.category.project[0].img} alt="" className="category-img"/>
-      <img src={props.category.project[0].img} alt="" className="category-img"/>
+      <img src={props.category.project[0].img} alt="" className="home-img"/>
+      
      
     </div>
   );
