@@ -13,7 +13,7 @@ function CategoryDetail(props) {
           <p>Created with EXPRESS and EJS</p>
         </section>
         <section className="gallary">
-          <img src={props.category.project[0].img} alt="" className="project-img"/>
+          <img src={props.category.project[0].media[0]} alt="" className="project-img"/>
         </section>
       </div>
 
@@ -26,7 +26,7 @@ function CategoryDetail(props) {
           <p>Created with REACT.</p>
         </section>
         <section className="gallary2">
-          <img src={props.category.project[0].img} alt="" className="project-img"/>
+          <img src={props.category.project[0].media[1]} alt="" className="project-img"/>
         </section>
       </div>
 
@@ -39,7 +39,7 @@ function CategoryDetail(props) {
           <p>Created with Express and EJS.</p>
         </section>
         <section className="gallary">
-          <img src={props.category.project[0].img} alt="" className="project-img"/>
+          <img src={props.category.project[0].media[2]} alt="" className="project-img"/>
         </section>
       </div>
 
