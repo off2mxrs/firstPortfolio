@@ -5,10 +5,12 @@ function Home() {
         <div className="main-page">
             <Sidebar />
             <main className="category-info">
-                <div className="category-detail">
+                <div className="home-background">
+                    <br />
+                    <br />
                     <h1>Marshawn Davidson</h1>
                     <h2>Software Engineer | Front End Developer</h2> 
-                    <img src="../9YjtagPA.jpg" alt="" className="category-img"/>
+                    {/* <img src="../9YjtagPA.jpg" alt="" className="home-img"/> */}
                 </div>
             </main>
 
