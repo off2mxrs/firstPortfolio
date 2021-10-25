@@ -1,10 +1,17 @@
+import Sidebar from "../components/Sidebar"
 import "../styles/main.scss"
 
 function Contact() {
     return (
-        <div>
-        <h1>Contact</h1>
-       <h2> ADD CONTACT FORM and SOCIAL MEDIA LINKS </h2>   
+        <div className="main-page">
+            <Sidebar />
+            <main className="category-info">
+                <div className="category-detail">
+                    <h2> ADD CONTACT FORM and SOCIAL MEDIA LINKS </h2>   
+
+                </div>
+
+            </main>
        </div>
        )
 }

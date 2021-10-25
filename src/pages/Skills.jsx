@@ -1,14 +1,10 @@
+import Sidebar from "../components/Sidebar";
 import "../styles/portfolio.scss"
 
-function About() {
+function Skills() {
     return (
         <div className="main-page">
-             <aside className="sidebar">
-                <li className="sidebar-card">RESUME</li>
-                <h3 className='vertical'>
-                    SKILLS
-                </h3>
-            </aside>
+            <Sidebar />
             <main className="category-info">
                 <div className="category-detail">
                     <h2>Marshawn Davidson</h2>
@@ -23,4 +19,4 @@ function About() {
     )
 }
 
-export default About;
+export default Skills;

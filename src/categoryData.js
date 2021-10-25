@@ -1,6 +1,6 @@
 const categoryData = [
     {
-      categoryName: 'Home',
+      categoryName: 'Projects',
       // categoryDescription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, eligendi. Repellendus voluptates vel, consequatur sequi dolorem repellat blanditiis aut optio impedit quidem ut officiis laudantium vitae dicta aspernatur ullam quis?',
       project: [
         {
