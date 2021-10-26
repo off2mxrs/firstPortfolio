@@ -83,12 +83,13 @@
   .sidebar-card {
     display: flex;
     padding: 20px;
-    border-bottom: 2px solid #aaa;
+    // border-bottom: 2px solid #aaa;
     cursor: pointer;
   }
   
   .sidebar-card:hover {
     background: #efefef;
+    transform:scale(1.1);
   }
 
   .side {
@@ -189,9 +190,9 @@
   
 ////////////////////// CONTACT ///////////////////////
 .contact-img{
-  width: 200px;
+  width: 150px;
   border-radius: 200px;
-  border: 3px solid #000;
+  border: 1px solid #000;
   grid-column: 1/2;
   grid-row: 1/2;
 }
@@ -200,9 +201,27 @@
   display: grid;
   grid-template: auto 1fr auto / auto 1fr auto;
   align-items: center;
+  background-color: rgba(255, 255, 255, 0.338);
+  border-radius: 100px;
+  margin: 1rem;
+  padding-left: 3rem;
 }
 
 .icons {
   grid-column:2/2;
   padding: 50px;
+  display: flex;
+  // flex-direction: column;
+  // align-items: center;
+}
+
+.social-links {
+  font-size: 30px;
+  padding: 20px;
+  color: #000;
+}
+.social-links:hover {
+  transform:scale(1.5);
+  color: #fff;
+  padding: 20px;
 }
