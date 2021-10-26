@@ -25,11 +25,11 @@ function Contact() {
                     <form action="https://formsubmit.co/marshawndavidson.ail@gmail.com" method="POST">
                         Contact
                         <br/>
-                        <label for="name">Name</label>
-                        <input type="text" name="name" required></input>
+                        <input type="hidden" name="_captcha" value="false"></input>
+                        <input type="email" name="email" placeholder="Email Address" required></input>
+                        <input type="hidden" name="_next" value="https://marshawndavidson.dev/thanks"></input>
                         <br/>
-                        <label for="email">Email</label>
-                        <input type="email" name="email" required></input>
+                        <input type="text" name="name" placeholder="Name" required></input>
                         <br/>
                         <input type="submit"></input>
                     </form> 
