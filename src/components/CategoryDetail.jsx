@@ -13,7 +13,9 @@ function CategoryDetail(props) {
           <p>Created with EXPRESS and EJS</p>
         </section>
         <section className="gallary">
-          <img src={props.category.project[0].media[0]} alt="" className="project-img"/>
+          <a href="https://github.com/off2mxrs/label" target="_blank">
+           <img src={props.category.project[0].media[0]} alt="" className="project-img"/>
+          </a>
         </section>
       </div>
 
@@ -26,8 +28,10 @@ function CategoryDetail(props) {
           <p>Created with REACT.</p>
         </section>
         <section className="gallary2">
-          <img src={props.category.project[0].media[1]} alt="" className="project-img"/>
-        </section>
+          <a href="https://github.com/DataPlant/WayfarerReact" target="_blank">
+            <img src={props.category.project[0].media[1]} alt="" className="project-img"/>
+          </a>
+  </section>
       </div>
 
       <div className="project" >
@@ -39,7 +43,9 @@ function CategoryDetail(props) {
           <p>Created with Express and EJS.</p>
         </section>
         <section className="gallary">
-          <img src={props.category.project[0].media[2]} alt="" className="project-img"/>
+          <a href="https://sei706-blvd.herokuapp.com/" target="_blank">
+            <img src={props.category.project[0].media[2]} alt="" className="project-img"/>
+          </a>  
         </section>
       </div>
 
