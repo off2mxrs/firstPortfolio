@@ -13,7 +13,7 @@ function Contact() {
             <main className="category-info">
                 <div className="category-detail">
                     <h2> ADD CONTACT FORM and SOCIAL MEDIA LINKS </h2>   
-
+                    <img src="../me.jpg" alt="" className="category-img"/>
                 </div>
 
             </main>
