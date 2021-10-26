@@ -187,66 +187,22 @@
   }
 
   
-  /* RECIPES SECTION ******************************************* */
-  .recipes-section {
-    border: 2px solid #aaa;
-    cursor: pointer;
-  }
-  
-  .add-recipe-button {
-    margin: 15px;
-    padding: 7px 10px;
-  }
-  
-  .recipe {
-    border-top: 2px solid #aaa;
-    padding: 18px;
-  }
-  
-  .recipe:hover {
-    background: #efefef;
-  }
-  
-  /* RECIPE ADD PAGE ******************************************** */
-  .form {
-    margin: 0 auto;
-    max-width: 1000px;
-    padding: 20px;
-  }
-  
-  .form-header {
-    margin-bottom: 20px;
-  }
-  
-  .form-group {
-    display: flex;
-    margin-bottom: 10px;
-  }
-  
-  .form-label {
-    width: 100px;
-  }
-  
-  .form-input {
-    width: 100%;
-    border-radius: 3px;
-    border: 2px solid #aaa;
-    padding: 5px;
-  }
-  
-  .form-input-body {
-    height: 200px;
-  }
-  /* SHOW RECIPE PAGE **************************************** */
-  .show-recipe-page {
-    margin: 0 auto;
-    max-width: 1000px;
-    padding: 20px;
-  }
-  
-  .recipe-category-name,
-  .recipe-title,
-  .recipe-body {
-    margin-bottom: 10px;
-  }
-  
+////////////////////// CONTACT ///////////////////////
+.contact-img{
+  width: 200px;
+  border-radius: 200px;
+  border: 3px solid #000;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.social-media {
+  display: grid;
+  grid-template: auto 1fr auto / auto 1fr auto;
+  align-items: center;
+}
+
+.icons {
+  grid-column:2/2;
+  padding: 50px;
+}
