@@ -29,7 +29,7 @@ function Contact() {
                             <br/>
                             <input type="hidden" name="_captcha" value="false"></input>
                             <input type="email" className="input-field" name="email" placeholder="Email Address" required></input>
-                            <input type="hidden" name="_next" value="https://marshawndavidson.dev/thanks"></input>
+                            {/* <input type="hidden" name="_next" value="https://marshawndavidson.dev/thanks"></input> */}
                             <br/>
                             <input type="text" className="input-field" name="_subject" placeholder="Subject"></input>
                             <br />
