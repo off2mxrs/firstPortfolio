@@ -21,18 +21,22 @@ function Contact() {
                           <a className="social-links"  href="mailto:marshawndavidson.ail@gmail.com"> <FaEnvelope/></a>
                         </div>
                     </div> 
-
-                    <form action="https://formsubmit.co/marshawndavidson.ail@gmail.com" method="POST">
-                        Contact
-                        <br/>
-                        <input type="hidden" name="_captcha" value="false"></input>
-                        <input type="email" name="email" placeholder="Email Address" required></input>
-                        <input type="hidden" name="_next" value="https://marshawndavidson.dev/thanks"></input>
-                        <br/>
-                        <input type="text" name="name" placeholder="Name" required></input>
-                        <br/>
-                        <input type="submit"></input>
-                    </form> 
+                    <div className="contact-box">
+                        <form action="https://formsubmit.co/marshawndavidson.ail@gmail.com" method="POST">
+                            Contact Me!
+                            <br/>
+                            <input type="text" className="input-field" name="name" placeholder="Name" required></input>
+                            <br/>
+                            <input type="hidden" name="_captcha" value="false"></input>
+                            <input type="email" className="input-field" name="email" placeholder="Email Address" required></input>
+                            <input type="hidden" name="_next" value="https://marshawndavidson.dev/thanks"></input>
+                            <br/>
+                            <input type="text" className="input-field" name="_subject" placeholder="Subject"></input>
+                            <br />
+                            <textarea type="text" className="input-field textarea-field" name="message" placeholder="Message" required></textarea>
+                            <input type="submit" className="submit"></input>
+                        </form> 
+                    </div>
                 </div>
 
             </main>

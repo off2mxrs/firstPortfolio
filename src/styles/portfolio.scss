@@ -201,7 +201,7 @@
   display: grid;
   grid-template: auto 1fr auto / auto 1fr auto;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.338);
+  // background-color: rgba(255, 255, 255, 0.338);
   border-radius: 100px;
   margin: 1rem;
   padding-left: 3rem;
@@ -234,3 +234,72 @@
   padding: 20px;
 }
 
+//////////////// CONTACT FORM ///////////////
+.contact-box {
+  width: 500px;
+  // background-color: rgba(255, 255, 255, 0.256);
+  // box-shadow: 0 0 20px 0 #999;
+  top: 50%;
+  left: 50%;
+  // transform: translate(-50%, -50%);
+  // position: absolute;
+}
+
+form {
+  margin:  35px;
+  text-align: center;
+}
+
+.input-field {
+  background-color: #efefef45;
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid rgba(119, 119, 119, 0.18);
+  border-radius: 14px;
+  outline: none;
+}
+.input-field:hover {
+  background-color: #fff;
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+
+.textarea-field {
+  height: 150px;
+  padding-top: 10px;
+}
+.textarea-field:hover {
+  height: 150px;
+  padding-top: 10px;
+}
+
+.submit {
+  border-radius: 20px;
+  margin-top: 18px;
+  padding: 10px;
+  background-color: #47c35a5f;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submit:hover {
+  border-radius: 20px;
+  margin-top: 18px;
+  padding: 10px;
+  background-color: #47c35a;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
