@@ -22,20 +22,14 @@ function Contact() {
                         </div>
                     </div> 
 
-                    <form>
+                    <form action="https://formsubmit.co/marshawndavidson.ail@gmail.com" method="POST">
                         Contact
                         <br/>
-                        <label className="#"></label>
-                        <input type="text" className="#"></input>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" required></input>
                         <br/>
-                        <label className="#"></label>
-                        <input type="text" className="#"></input>
-                        <br/>
-                        <label className="#"></label>
-                        <input type="text" className="#"></input>
-                        <br/>
-                        <label className="#"></label>
-                        <input type="text" className="#"></input>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" required></input>
                         <br/>
                         <input type="submit"></input>
                     </form> 
