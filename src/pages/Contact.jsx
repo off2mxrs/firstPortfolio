@@ -15,7 +15,7 @@ function Contact() {
                 <div className="category-detail"> 
                     <div className="social-media">
                         <img src="../me.jpg" alt="" className="contact-img"/>
-                        <div className="icons">
+                        <div className="contact-icons">
                           <a className="social-links" href="https://github.com/off2mxrs"  target="_blank"><FaGithub /></a>
                           <a className="social-links"  href="https://www.linkedin.com/in/marshawndavidson/" target="_blank"> <FaLinkedin /></a>
                           <a className="social-links"  href="mailto:marshawndavidson.ail@gmail.com"> <FaEnvelope/></a>
