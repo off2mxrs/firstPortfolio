@@ -3,7 +3,12 @@ import Sidebar from "../components/Sidebar";
 function Home() {
     return (
         <div className="main-page">
-            <Sidebar />
+            <div className="side">
+             <Sidebar />
+             <h3 className='vertical'>
+                PORTFOLIO
+             </h3>
+            </div>
             <main className="category-info">
                 <div className="home-background">
                     <br />

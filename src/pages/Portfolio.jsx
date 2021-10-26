@@ -27,10 +27,12 @@ class Portfolio extends React.Component {
   
     return (
       <div className="main-page">
-           <Sidebar 
-           categoryNames={categoryNames} 
-           updateCategoryIdx={this.updateCategoryIdx}
-           />
+            <div className="side">
+             <Sidebar />
+             <h3 className='vertical'>
+                PROJECTS
+             </h3>
+            </div>
          
     
           <main className="category-info">

@@ -29,10 +29,7 @@ function Sidebar(props) {
           <li className="sidebar-card"><Link to ="/skills">Skills</Link></li>
           <li className="sidebar-card"><Link to ="/contact">Contact</Link></li>
          </ul>
-        <h3 className='vertical'>
-         PORTFOLIO
-
-        </h3>
+       
         </aside>
 
       </div>

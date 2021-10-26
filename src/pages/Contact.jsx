@@ -4,7 +4,12 @@ import "../styles/main.scss"
 function Contact() {
     return (
         <div className="main-page">
-            <Sidebar />
+             <div className="side">
+                <Sidebar />
+                <h3 className='vertical'>
+                    CONTACT
+                </h3>
+            </div>
             <main className="category-info">
                 <div className="category-detail">
                     <h2> ADD CONTACT FORM and SOCIAL MEDIA LINKS </h2>   

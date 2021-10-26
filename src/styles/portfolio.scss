@@ -73,21 +73,29 @@
     width: 240px;
     min-width: 300px;
     display: flex;
-    // justify-content: column;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    // border: 2px solid #aaa;
+    text-align: center;
+   padding-top: 5px;
   }
   
   .sidebar-card {
     display: flex;
     padding: 20px;
-    // border-bottom: 2px solid #aaa;
+    border-bottom: 2px solid #aaa;
     cursor: pointer;
+    text-align: center;
   }
   
   .sidebar-card:hover {
     background: #efefef;
+  }
+
+  .side {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 
   .vertical {

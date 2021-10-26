@@ -4,7 +4,12 @@ import "../styles/portfolio.scss"
 function Skills() {
     return (
         <div className="main-page">
-            <Sidebar />
+             <div className="side">
+                <Sidebar />
+                <h3 className='vertical'>
+                    SKILLS
+                </h3>
+            </div>
             <main className="category-info">
                 <div className="category-detail">
                     <h2>Marshawn Davidson</h2>
