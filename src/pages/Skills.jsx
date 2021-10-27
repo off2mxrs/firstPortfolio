@@ -12,7 +12,7 @@ function Skills() {
             </div>
             <main className="category-info">
                 <div className="category-detail">
-                    <h2>Skills</h2>
+                    <h2 className="page-title">Skills</h2>
                     
                     
                 

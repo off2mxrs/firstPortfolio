@@ -9,6 +9,7 @@ function Home() {
                 PORTFOLIO
              </h3>
             </div>
+            
             <main className="category-info">
                 <div className="home-background">
                     <br />

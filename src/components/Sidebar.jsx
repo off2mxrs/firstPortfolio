@@ -24,10 +24,10 @@ function Sidebar(props) {
         <aside className="sidebar">
          {/* {sidebarJsx} */}
          <ul>
-          <li className="sidebar-card"><Link to ="/">Home</Link></li>
-          <li className="sidebar-card"><Link to ="/projects">Projects</Link></li>
-          <li className="sidebar-card"><Link to ="/skills">Skills</Link></li>
-          <li className="sidebar-card"><Link to ="/contact">Contact</Link></li>
+          <li><Link className="sidebar-card" to ="/">Home</Link></li>
+          <li><Link className="sidebar-card" to ="/projects">Projects</Link></li>
+          <li><Link className="sidebar-card" to ="/skills">Skills</Link></li>
+          <li><Link className="sidebar-card" to ="/contact">Contact</Link></li>
          </ul>
        
         </aside>

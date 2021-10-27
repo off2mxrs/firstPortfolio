@@ -168,9 +168,14 @@ header {
     padding: 2rem 50px;
   }
 }
-@media screen and (max-width: 650px) {
-  .container{
-    grid-template-columns: 1fr;
+@media (max-width: 650px) {
+  
+  .skill-icon {
+    width: 50px;
+  }  
+  .skill-title h3{
+    font-size: 15px;
     
   }
+  
 }

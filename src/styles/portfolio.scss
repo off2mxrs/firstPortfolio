@@ -62,18 +62,14 @@
     color: orange;
   }
   
-  .main-page {
-    display: flex;
-    // min-width: 100vh;
-    margin: 0 auto;
-  }
+ 
   
   /* SIDEBAR ************************************************* */
   .sidebar {
     width: 240px;
     min-width: 300px;
     display: flex;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
@@ -98,16 +94,7 @@
     flex-direction: column;
   }
 
-  .vertical {
-    writing-mode: vertical-lr;
-    -ms-writing-mode: vertical-lr;
-    transform: rotate(180deg);
-    padding: 10px;
-    font-size: 70px;
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
-}
+  
   
   /* category INFO *********************************************** */
  .home-img {
@@ -302,4 +289,51 @@ form {
   border: none;
   cursor: pointer;
   width: 100%;
+}
+
+///////////// MEDIA QUERIES ****************
+//DESKTOP
+@media (min-width: 651px) {
+  .main-page {
+    display: flex;
+    // min-width: 100vh;
+    margin: 0 auto;
+  }
+  .vertical {
+    writing-mode: vertical-lr;
+    -ms-writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    padding: 10px;
+    font-size: 70px;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+}
+}
+
+//MOBILE
+@media (max-width: 650px) {
+ 
+  .side{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .sidebar ul{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+  }
+  .sidebar-card {
+    padding: 12px;
+    border-bottom: 2px solid #aaa;
+  }
+  .page-title{
+    display: none;
+  }
+
+  .vertical {
+    padding-top: 10px;
+  }
+  
 }

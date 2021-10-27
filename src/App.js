@@ -15,9 +15,10 @@ function App() {
       <Route path="/skills" component={Skills} exact />
       <Route path="/contact" component={Contact} />
       <Route path="/thanks" component={Thanks} />
-
     </Switch>
-    <Header />
+
+     <Header />
+    
    </div>
   );
 }
