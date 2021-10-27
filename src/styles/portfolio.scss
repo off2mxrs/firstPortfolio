@@ -238,10 +238,11 @@
 //////////////// CONTACT FORM ///////////////
 .contact-box {
   width: 500px;
+  max-width: 100%;
   // background-color: rgba(255, 255, 255, 0.256);
   // box-shadow: 0 0 20px 0 #999;
-  top: 50%;
-  left: 50%;
+  // top: 50%;
+  // left: 50%;
   // transform: translate(-50%, -50%);
   // position: absolute;
 }
@@ -253,6 +254,7 @@ form {
 
 .input-field {
   background-color: #efefef45;
+  max-width: 100%;
   width: 400px;
   height: 40px;
   margin-top: 20px;
@@ -381,4 +383,22 @@ form {
   .info2 {
     padding-bottom: 50px;
   }
+  .contact-box {
+    width: 500px;
+  }
+
+  .social-media {
+    display:flex;
+    flex-direction: column;
+    padding-left:0;
+  }
+
+  .contact-icons {
+    padding-bottom: 0px;
+  }
+
+  .contact-img{
+    width: 100px;
+  }
+ 
 }
