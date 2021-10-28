@@ -69,24 +69,48 @@ header {
   padding-top: 20px;
 }
 
-.skill-header{
-  text-align: center;
-  color: #fff;
-  padding: 1rem;
-  position: relative;
+.resume-btn {
+  display: inline-flex;
+  height: 50px;
+  padding: 0;
+  background: #009578;
+  border:none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
 }
 
-.skill-header:after{
-  content: '';
-  position: absolute;
-  bottom: 1;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 4px;
-  width: 100px;
-  background-color: #2ecc71;
-  border-radius: 2px;
+.resume-btn:hover {
+  background: #008168;
 }
+.resume-btn:active {
+  background: #006e58;
+}
+
+.btn-text, .btn-icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  color: #fff;
+  height: 100%;
+}
+
+.btn-icon {
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.skill-header{
+  text-align: center;
+  // color: #fff;
+  padding: 1rem;
+  // position: relative;
+}
+
 
 .container{
   display: grid;

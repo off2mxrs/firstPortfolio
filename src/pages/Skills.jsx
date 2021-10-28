@@ -1,5 +1,6 @@
 import Sidebar from "../components/Sidebar";
 import "../styles/portfolio.scss"
+import { FaDownload, } from "react-icons/fa"
 
 function Skills() {
     return (
@@ -18,10 +19,18 @@ function Skills() {
                 
                    <section className="glass">
             <div className="inner">
-                <div className="skill-header">
+                {/* 
                     <h3><a href="https://docs.google.com/document/d/1jdC5pD9IzlW0GQboGm1kzvzpbvqsKelqgFuhUy1bRu0/edit?usp=sharing" target="_blank">Resume</a></h3> 
                     <h3><a href="resume.pdf" download="Marshawn Davidson's Resume">Download Resume</a></h3> 
-                </div>
+                 */}
+                <div className="skill-header">
+                <a href="resume.pdf" download="Resume|Marshawn D.">
+                    <button type="button" className="resume-btn">
+                        <span className="btn-text">Download <br/> Resume</span>
+                        <span className="btn-icon"><FaDownload/></span>
+                    </button>
+                </a>
+                </div>    
                 <section className="container">
                     <div className="skill-box">
                         <div className="skill-title">
