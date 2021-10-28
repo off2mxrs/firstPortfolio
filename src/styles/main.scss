@@ -73,7 +73,7 @@ header {
   display: inline-flex;
   height: 50px;
   padding: 0;
-  background: #009578;
+  background: #6f6f6f5d;
   border:none;
   outline: none;
   border-radius: 5px;
@@ -85,7 +85,10 @@ header {
 }
 
 .resume-btn:hover {
-  background: #008168;
+  background: #05ac8b;
+  .btn-icon {
+    font-size: 1.5em;
+  }
 }
 .resume-btn:active {
   background: #006e58;
@@ -99,9 +102,9 @@ header {
   height: 100%;
 }
 
-.btn-icon {
-  font-size: 1.5em;
-  background: rgba(0, 0, 0, 0.08);
+
+.btn-text {
+  background: #008168;
 }
 
 .skill-header{
