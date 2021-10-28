@@ -96,7 +96,7 @@
 
   
   
-  /* category INFO *********************************************** */
+  /* HOME *********************************************** */
  .home-img {
    width: 100%;
  }
@@ -115,12 +115,66 @@
   opacity: 0.87;
 }
 
+.wrapper {
+  display: inline-flex;
+}
 
-//  .page-title {
-//    grid-row: 1/4;
-//    grid-column: 1/4;
-//  }
- 
+.wrapper .static-txt {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.wrapper .dynamic-txt {
+  margin-left: 15px;
+  height: 37px;
+  line-height: 37px;
+  // background: red;
+  // overflow: hidden;
+}
+
+.dynamic-txt li {
+  color: #FC6D6D;
+  list-style: none;
+  font-size: 30px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 9s steps(9) infinite;
+}
+
+@keyframes slide {
+  100%{
+    top: -200px;
+}
+}
+
+
+.dynamic-txt li span{
+  position: relative;
+}
+
+.dynamic-txt li span::after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background:rgb(0, 0, 0);
+  border-left: 2px solid #FC6D6D;
+  animation: typing 1.5s steps(10) infinite;
+}
+
+@keyframes typing {
+  100%{
+    left: 100%;
+    margin: 0 -35px 0 35px;
+  }
+}
+
+
+
+   /* category INFO *********************************************** */
   .category-info {
     // border: 2px solid #aaa;
     flex-grow: 1;
