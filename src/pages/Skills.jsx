@@ -19,10 +19,6 @@ function Skills() {
                 
                    <section className="glass">
             <div className="inner">
-                {/* 
-                    <h3><a href="https://docs.google.com/document/d/1jdC5pD9IzlW0GQboGm1kzvzpbvqsKelqgFuhUy1bRu0/edit?usp=sharing" target="_blank">Resume</a></h3> 
-                    <h3><a href="resume.pdf" download="Marshawn Davidson's Resume">Download Resume</a></h3> 
-                 */}
                 <div className="skill-header">
                 <a href="https://docs.google.com/document/d/1jdC5pD9IzlW0GQboGm1kzvzpbvqsKelqgFuhUy1bRu0/edit?usp=sharing" target="_blank">
                 <button type="button" className="resume-btn">

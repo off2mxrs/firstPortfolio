@@ -231,7 +231,7 @@
 }
 .social-links:hover {
   transform:scale(1.5);
-  color: rgb(218, 220, 102);
+  color: rgb(255, 255, 255);
   padding: 20px;
 }
 
@@ -399,6 +399,12 @@ form {
 
   .contact-img{
     width: 100px;
+  }
+
+  .social-links {
+    font-size: 30px;
+    padding: 10px;
+    
   }
  
 }

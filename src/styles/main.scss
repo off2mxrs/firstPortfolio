@@ -16,6 +16,7 @@ body {
 
 /* HEADER ************************************************* */
 .mars {
+  margin-left: 100px;
   padding-right: 15px;
   padding-left: 15px;
   color:rgb(0, 0, 0);
@@ -24,7 +25,7 @@ body {
 
 header {
     // border: 2px solid #aaa;
-    padding: 0 30px;
+    // padding: 0 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,7 +34,7 @@ header {
   }
 
   .header-title{
-    padding-left: 80px;
+    // padding-left: 80px;
   }
   .header-title:hover{
     color: orange;
@@ -102,9 +103,8 @@ header {
   height: 100%;
 }
 
-
-.btn-text {
-  background: #008168;
+.btn-icon{
+  background:rgb(0, 0, 0, 0.08)
 }
 
 .skill-header{
@@ -210,6 +210,11 @@ header {
   .skill-title h3{
     font-size: 15px;
     
+  }
+
+  .mars {
+    font-size: 20px;
+    margin-left: 20px;
   }
   
 }
