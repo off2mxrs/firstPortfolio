@@ -16,13 +16,12 @@ function Home() {
             <main className="category-info">
                 <div className="home-background">
                   <div className="wrapper">
-                    <div className="static-txt">Marshawn Davidson | </div>
+                    <div className="static-txt">Marshawn Davidson </div>
                     <ul className="dynamic-txt">
                         <li><span>Software Engineer</span></li>
                         <li><span>Front-End Specialist</span></li>
                         <li><span>Curator</span></li>
                         <li><span>Music Artist</span></li>
-                        <li><span>Dancer</span></li>
                     </ul>
                    </div>
                 </div>
