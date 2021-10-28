@@ -23,7 +23,7 @@ function CategoryDetail(props) {
       <div className="project" >
       <section className="gallary2">
           <h3>Wayfarer</h3>
-          <a href="https://github.com/DataPlant/WayfarerReact" target="_blank">
+          <a href="https://wayfarer-sette-digital.herokuapp.com" target="_blank">
             <img src={props.category.project[0].media[1]} alt="" className="project-img"/>
           </a>
       </section>
