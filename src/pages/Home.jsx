@@ -1,13 +1,16 @@
 import Sidebar from "../components/Sidebar";
+import Fade from "react-reveal/Fade"
 
 function Home() {
     return (
         <div className="main-page">
             <div className="side">
              <Sidebar />
+             <Fade bottom>
              <h3 className='vertical'>
                 PORTFOLIO
              </h3>
+             </Fade>
             </div>
             
             <main className="category-info">
