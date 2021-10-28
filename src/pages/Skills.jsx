@@ -1,15 +1,19 @@
 import Sidebar from "../components/Sidebar";
 import "../styles/portfolio.scss"
 import { FaDownload, FaGoogleDrive} from "react-icons/fa"
+import Jump from "react-reveal/Jump"
+import Fade from "react-reveal/Fade"
 
 function Skills() {
     return (
         <div className="main-page">
              <div className="side">
-                <Sidebar />
-                <h3 className='vertical'>
-                    SKILLS
-                </h3>
+              <Sidebar />
+               <h3 className='vertical'>
+               <Fade top cascade>
+                 SKILLS
+               </Fade>
+             </h3>
             </div>
             <main className="category-info">
                 <div className="category-detail">
@@ -17,22 +21,28 @@ function Skills() {
                     
                     
                 
-                   <section className="glass">
+                
             <div className="inner">
                 <div className="skill-header">
                 <a href="https://docs.google.com/document/d/1jdC5pD9IzlW0GQboGm1kzvzpbvqsKelqgFuhUy1bRu0/edit?usp=sharing" target="_blank">
+                <Jump> 
                 <button type="button" className="resume-btn">
                         <span className="btn-text">View <br/> Resume</span>
                         <span className="btn-icon"><FaGoogleDrive/></span>
                     </button>
+                </Jump>
                 </a>
                 <a href="../resume.pdf" download="Resume_Marshawn_Davidson">
+                 <Jump>   
                     <button type="button" className="resume-btn">
                         <span className="btn-text">Download <br/> Resume</span>
                         <span className="btn-icon"><FaDownload/></span>
                     </button>
+                 </Jump>   
                 </a>
-                </div>    
+                </div> 
+               
+
                 <section className="container">
                     <div className="skill-box">
                         <div className="skill-title">
@@ -111,7 +121,7 @@ function Skills() {
     
                 {/* <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */}
             </div>
-            </section>
+            
             </div> 
             </main>
 

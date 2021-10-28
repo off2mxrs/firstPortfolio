@@ -3,7 +3,7 @@ import "../styles/portfolio.scss"
 import Sidebar from "../components/Sidebar"
 import CategoryDetail from "../components/CategoryDetail"
 import categoryData from '../categoryData';
-import Header from '../components/Header'
+import Fade from "react-reveal/Fade"
 
 class Portfolio extends React.Component {
 
@@ -30,7 +30,9 @@ class Portfolio extends React.Component {
             <div className="side">
              <Sidebar />
              <h3 className='vertical'>
-                PROJECTS
+              <Fade top cascade>
+               PROJECTS
+              </Fade>
              </h3>
             </div>
          

@@ -1,6 +1,7 @@
 import Sidebar from "../components/Sidebar"
 import "../styles/main.scss"
 import { FaGithub, FaLinkedin, FaEnvelope, } from "react-icons/fa"
+import Fade from "react-reveal/Fade"
 
 function Contact() {
     return (
@@ -8,7 +9,9 @@ function Contact() {
              <div className="side">
                 <Sidebar />
                 <h3 className='vertical'>
-                    CONTACT
+                 <Fade top cascade>
+                 CONTACT
+                </Fade>
                 </h3>
             </div>
             <main className="category-info">

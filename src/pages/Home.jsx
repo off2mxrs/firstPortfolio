@@ -6,11 +6,11 @@ function Home() {
         <div className="main-page">
             <div className="side">
              <Sidebar />
-             <Fade bottom>
-             <h3 className='vertical'>
-                PORTFOLIO
+              <h3 className='vertical'>
+              <Fade top cascade>
+               PORTFOLIO
+              </Fade>
              </h3>
-             </Fade>
             </div>
             
             <main className="category-info">

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 
+
 function Sidebar(props) {
   function handleCategoryClick(idx) {
     // console.log('Category Clicked');
@@ -24,10 +25,12 @@ function Sidebar(props) {
         <aside className="sidebar">
          {/* {sidebarJsx} */}
          <ul>
+         
           <li><Link className="sidebar-card" to ="/">Home</Link></li>
           <li><Link className="sidebar-card" to ="/projects">Projects</Link></li>
           <li><Link className="sidebar-card" to ="/skills">Skills</Link></li>
           <li><Link className="sidebar-card" to ="/contact">Contact</Link></li>
+         
          </ul>
        
         </aside>
