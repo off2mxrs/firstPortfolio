@@ -26,7 +26,7 @@ function Skills() {
                         <span className="btn-icon"><FaGoogleDrive/></span>
                     </button>
                 </a>
-                <a href="resume.pdf" download="Resume|Marshawn D.">
+                <a href="../resume.pdf" download="Resume_Marshawn_Davidson">
                     <button type="button" className="resume-btn">
                         <span className="btn-text">Download <br/> Resume</span>
                         <span className="btn-icon"><FaDownload/></span>
