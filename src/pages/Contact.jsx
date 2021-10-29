@@ -2,6 +2,7 @@ import Sidebar from "../components/Sidebar"
 import "../styles/main.scss"
 import { FaGithub, FaLinkedin, FaEnvelope, } from "react-icons/fa"
 import Fade from "react-reveal/Fade"
+import Wobble from "react-reveal/Wobble"
 
 function Contact() {
     return (
@@ -19,13 +20,16 @@ function Contact() {
                     <div className="social-media">
                         <img src="../meBeach.jpg" alt="" className="contact-img"/>
                         <div className="contact-icons">
+                          <Wobble>  
                           <a className="social-links" href="https://github.com/off2mxrs"  target="_blank"><FaGithub /></a>
                           <a className="social-links"  href="https://www.linkedin.com/in/marshawndavidson/" target="_blank"> <FaLinkedin /></a>
                           <a className="social-links"  href="mailto:marshawndavidson.ail@gmail.com"> <FaEnvelope/></a>
+                          </Wobble>
                         </div>
                     </div> 
                     <div className="contact-box">
                         <form action="https://formsubmit.co/marshawndavidson.ail@gmail.com" method="POST">
+                        <Fade bottom cascade>
                             Contact Me!
                             <br/>
                             <input type="text" className="input-field" name="name" placeholder="Your Name" required></input>
@@ -38,6 +42,7 @@ function Contact() {
                             <br />
                             <textarea type="text" className="input-field textarea-field" name="message" placeholder="Message" required></textarea>
                             <input type="submit" className="submit"></input>
+                           </Fade>
                         </form> 
                     </div>
                 </div>

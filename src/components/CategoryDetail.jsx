@@ -1,3 +1,5 @@
+import Fade from "react-reveal/Fade"
+
 function CategoryDetail(props) {
   return (
     <div className="category-detail">
@@ -8,7 +10,9 @@ function CategoryDetail(props) {
       <section className="gallary">
           <h3>Label</h3>
           <a href="https://github.com/off2mxrs/label" target="_blank">
-           <img src={props.category.project[0].media[0]} alt="" className="project-img"/>
+           <Fade left>
+            <img src={props.category.project[0].media[0]} alt="" className="project-img"/>
+           </Fade>
           </a>
         </section>
         <section className="info">
@@ -24,7 +28,9 @@ function CategoryDetail(props) {
       <section className="gallary2">
           <h3>Wayfarer</h3>
           <a href="https://wayfarer-sette-digital.herokuapp.com" target="_blank">
+            <Fade right>
             <img src={props.category.project[0].media[1]} alt="" className="project-img"/>
+            </Fade>
           </a>
       </section>
         <section className="info2">
@@ -40,7 +46,9 @@ function CategoryDetail(props) {
       <section className="gallary">
           <h3>blvd</h3>
           <a href="https://sei706-blvd.herokuapp.com/" target="_blank">
+          <Fade left>
             <img src={props.category.project[0].media[2]} alt="" className="project-img"/>
+          </Fade>  
           </a>  
         </section>
         <section className="info">

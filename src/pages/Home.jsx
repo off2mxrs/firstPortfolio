@@ -15,7 +15,9 @@ function Home() {
             
             <main className="category-info">
                 <div className="home-background">
-                    <div className="static-txt">Marshawn Davidson </div>
+                    {/* <img className="home-fade" src="../wwydblank.png"/> */}
+                 <Fade bottom cascade>   
+                  <div className="static-txt">Marshawn Davidson </div>
                   <div className="wrapper">
                     <ul className="dynamic-txt">
                         <li><span>Software Engineer</span></li>
@@ -24,6 +26,7 @@ function Home() {
                         <li><span>Music Artist</span></li>
                     </ul>
                    </div>
+                   </Fade>
                 </div>
             </main>
 

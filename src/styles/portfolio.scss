@@ -101,6 +101,11 @@
    width: 100%;
  }
 
+ .home-fade {
+   opacity: .6;
+   width: 00px;
+ }
+
  .home-background {
   background-image: url("/media/IMG_5545.JPG");
   background-size: cover;
@@ -129,6 +134,7 @@
 }
 
 .wrapper .dynamic-txt {
+  // margin-top: 200px;
   margin-left: 15px;
   height: 90px;
   line-height: 90px;
