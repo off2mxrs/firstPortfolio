@@ -256,8 +256,9 @@
   
 ////////////////////// CONTACT ///////////////////////
 .contact-img{
-  width: 150px;
+  width: 100px;
   border-radius: 200px;
+  clip-path: circle();
   border: 1px solid #000;
   grid-column: 1/2;
   grid-row: 1/2;
