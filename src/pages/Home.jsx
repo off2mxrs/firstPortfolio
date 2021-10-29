@@ -15,8 +15,8 @@ function Home() {
             
             <main className="category-info">
                 <div className="home-background">
-                  <div className="wrapper">
                     <div className="static-txt">Marshawn Davidson </div>
+                  <div className="wrapper">
                     <ul className="dynamic-txt">
                         <li><span>Software Engineer</span></li>
                         <li><span>Front-End Specialist</span></li>

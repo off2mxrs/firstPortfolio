@@ -102,7 +102,9 @@
  }
 
  .home-background {
-  background-image: url("/media/9YjtagPA.jpg");
+  background-image: url("/media/IMG_5545.JPG");
+  background-size: cover;
+  background-position: 60%;
   border: 2px solid #aaa;
   border-radius: 30px 100px 30px 100px;
   display: flex;
@@ -120,9 +122,9 @@
   flex-direction: column;
 }
 
-.wrapper .static-txt {
+.static-txt {
   color: #fff;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 400;
 }
 
@@ -130,12 +132,13 @@
   margin-left: 15px;
   height: 90px;
   line-height: 90px;
-  background: rgb(28, 28, 28);
+  // background: rgb(28, 28, 28);
   overflow: hidden;
 }
 
 .dynamic-txt li {
   color: gold;
+  text-align: center;
   list-style: none;
   font-size: 60px;
   font-weight: 500;
@@ -161,8 +164,8 @@
   left: 0;
   height: 90px;
   width: 100%;
-  background:rgb(28, 28, 28);
-  border-left: 2px solid #fcf06d;
+  // background:rgb(28, 28, 28);
+  // border-left: 2px solid #fcf06d;
   animation: typing 3s steps(12) infinite;
 }
 
@@ -241,6 +244,7 @@
 
   .project-img:hover{
     transform: scale(1.05);
+    opacity: 0.8;
   }
 
   
