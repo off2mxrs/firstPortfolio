@@ -9,7 +9,7 @@ function CategoryDetail(props) {
       <div className="project" >
       <section className="gallary">
           <h3>Label</h3>
-          <a href="https://github.com/off2mxrs/label" target="_blank">
+          <a href="https://github.com/off2mxrs/label" target="_blank" className="project-link">
            <Fade left>
             <img src={props.category.project[0].media[0]} alt="" className="project-img"/>
            </Fade>
@@ -27,7 +27,7 @@ function CategoryDetail(props) {
       <div className="project" >
       <section className="gallary2">
           <h3>Wayfarer</h3>
-          <a href="https://wayfarer-sette-digital.herokuapp.com" target="_blank">
+          <a href="https://wayfarer-sette-digital.herokuapp.com" target="_blank" className="project-link">
             <Fade right>
             <img src={props.category.project[0].media[1]} alt="" className="project-img"/>
             </Fade>
@@ -45,7 +45,7 @@ function CategoryDetail(props) {
       <div className="project" >
       <section className="gallary">
           <h3>blvd</h3>
-          <a href="https://sei706-blvd.herokuapp.com/" target="_blank">
+          <a href="https://sei706-blvd.herokuapp.com/" target="_blank" className="project-link">
           <Fade left>
             <img src={props.category.project[0].media[2]} alt="" className="project-img"/>
           </Fade>  
