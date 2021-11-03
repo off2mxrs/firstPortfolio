@@ -97,9 +97,7 @@
   
   
   /* HOME *********************************************** */
- .home-img {
-   width: 100%;
- }
+ 
 
  .home-fade {
    opacity: .6;
@@ -108,7 +106,7 @@
 
  .home-background {
   background-image: url("/media/portfolio_home.jpg");
-  background-size: cover;
+  background-size:cover;
   background-position: 60%;
   border: 2px solid #aaa;
   border-radius: 30px 100px 30px 100px;
@@ -120,6 +118,7 @@
   height: 82vh;
   color: #fff;
   opacity: 0.87;
+  margin: 12px;
 }
 
 .wrapper {

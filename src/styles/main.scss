@@ -241,12 +241,19 @@ header {
 @media (max-width: 430px) {
   
   .static-txt {
-    font-size: 25px;
+    font-size: 20px;
   }
   .dynamic-txt li {
-    font-size: 29px;
+    font-size: 26px;
   }
   .static-txt br {
     display: inline;
   }
+ .home-background{
+  background-size:550px;
+  background-position: 70%;
+  height: 50vh;
+  margin: 15px;
+  margin-bottom: 100px;
+ }
 }
