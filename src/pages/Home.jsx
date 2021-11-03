@@ -17,11 +17,11 @@ function Home() {
                 <div className="home-background">
                     {/* <img className="home-fade" src="../wwydblank.png"/> */}
                  <Fade bottom cascade>   
-                  <div className="static-txt">Marshawn Davidson </div>
+                  <div className="static-txt">Marshawn <br/> Davidson </div>
                   <div className="wrapper">
                     <ul className="dynamic-txt">
                         <li><span>Software Engineer</span></li>
-                        <li><span>Front-End Specialist</span></li>
+                        <li><span>FrontEnd Specialist</span></li>
                         <li><span>Curator</span></li>
                         <li><span>Music Artist</span></li>
                     </ul>
