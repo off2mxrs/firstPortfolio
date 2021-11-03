@@ -9,7 +9,7 @@ function CategoryDetail(props) {
       <div className="project" >
       <section className="gallary">
           <h3>Label</h3>
-          <a href="https://github.com/off2mxrs/label" target="_blank" className="project-link">
+          <a href="https://labelproject.herokuapp.com/" target="_blank" className="project-link">
            <Fade left>
             <img src={props.category.project[0].media[0]} alt="" className="project-img"/>
            </Fade>
