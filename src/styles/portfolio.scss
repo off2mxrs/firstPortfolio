@@ -82,6 +82,10 @@
     // border-bottom: 2px solid #aaa;
     cursor: pointer;
   }
+
+  a {
+    color: rgb(0, 0, 0);
+  }
   
   .sidebar-card:hover {
     background: #efefef;
@@ -483,5 +487,5 @@ form {
     padding: 10px;
     
   }
- 
+
 }
