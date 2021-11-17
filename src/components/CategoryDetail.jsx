@@ -20,7 +20,7 @@ function CategoryDetail(props) {
           <br/>
           <p>Music website to showcase artists.</p>
           <br/>
-          <p>Created with EXPRESS and EJS</p>
+          <p>Created with Express and EJS. <a href="https://github.com/off2mxrs/label" target="_blank" className="repo" >Explore code here.</a> </p>
         </section>
       </div>
 
@@ -38,7 +38,7 @@ function CategoryDetail(props) {
           <br/>
           <p>Travel website</p>
           <br/>
-          <p>Created with REACT.</p>
+          <p>Created with React. <a href="https://github.com/DataPlant/WayfarerReact" target="_blank" className="repo" >Explore code here.</a></p>
         </section>
       </div>
 
@@ -56,7 +56,7 @@ function CategoryDetail(props) {
           <br/>
           <p>Social media website.</p>
           <br/>
-          <p>Created with Express and EJS.</p>
+          <p>Created with Express and EJS. <a href="https://github.com/off2mxrs/blvd" target="_blank" className="repo" >Explore code here.</a></p>
         </section>
       </div>
 
