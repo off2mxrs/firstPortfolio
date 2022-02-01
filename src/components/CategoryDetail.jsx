@@ -4,7 +4,24 @@ function CategoryDetail(props) {
   return (
     <div className="category-detail">
         <h2 className="page-title">Projects</h2> 
-     
+
+        <div className="project" >
+      <section className="gallary2">
+          <h3>Ravenous</h3>
+          <a href="https://ravenous-mars.netlify.app/" target="_blank" className="project-link">
+            <Fade right>
+            <img src={props.category.project[0].media[3]} alt="" className="project-img"/>
+            </Fade>
+          </a>
+      </section>
+        <section className="info2">
+          <h3>Ravenous</h3>
+          <br/>
+          <p>Yelp-Like Clone</p>
+          <br/>
+          <p>Created with React. <a href="https://github.com/off2mxrs/ravenous" target="_blank" className="repo" >Explore code here.</a></p>
+        </section>
+      </div>
 
       <div className="project" >
       <section className="gallary">

@@ -24,7 +24,7 @@ function Skills() {
                 
             <div className="inner">
                 <div className="skill-header">
-                <a href="https://docs.google.com/document/d/1jdC5pD9IzlW0GQboGm1kzvzpbvqsKelqgFuhUy1bRu0/edit?usp=sharing" target="_blank">
+                <a href="https://docs.google.com/document/d/1xjv0WyEcZ6oFewF-id0XUxm5XHYI4NWVCZ3gLhfu-nQ/edit?usp=sharing" target="_blank">
                 <Jump> 
                 <button type="button" className="resume-btn">
                         <span className="btn-text">View <br/> Resume</span>
